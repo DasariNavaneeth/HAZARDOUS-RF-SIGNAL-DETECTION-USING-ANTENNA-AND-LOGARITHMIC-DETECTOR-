@@ -62,9 +62,9 @@ Vth   = intercept + slope * (haz_dBm + 10);
 alert = Vout > Vth;
 
 if alert
-    fprintf('\n⚠️  HAZARDOUS RF LEVEL DETECTED! (>%d dBm)\n',haz_dBm);
+    fprintf('\n  HAZARDOUS RF LEVEL DETECTED! (>%d dBm)\n',haz_dBm);
 else
-    fprintf('\n✅ RF level safe (≤%d dBm).\n',haz_dBm);
+    fprintf('\nRF level safe (≤%d dBm).\n',haz_dBm);
 end
 
 %% Optional sweep: show Vout vs Pin and alert region
