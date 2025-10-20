@@ -55,5 +55,4 @@ It serves as a **prototype for real-world EMF safety monitoring** and is ideal f
 ---
 
 
-📧 *[your.email@example.com]*  
-🔗 [https://github.com/your-username](https://github.com/your-username)  
+
